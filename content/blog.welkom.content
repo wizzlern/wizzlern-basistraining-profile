@@ -1,0 +1,25 @@
+<?php
+// http://scotthadfield.ca/sites/scotthadfield.ca/files/01-welcome.content
+
+$node = array(
+  'type' => 'article',
+  'title' => 'Welkom',
+  'body' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer elementum erat mauris, quis dictum ipsum. In iaculis egestas imperdiet. Quisque elementum ultricies vulputate. Suspendisse interdum est quis turpis blandit a vulputate enim molestie. Praesent interdum, felis sed placerat rhoncus, tortor tellus bibendum sem, vitae vestibulum massa enim id arcu. Morbi lacinia, nulla id mattis laoreet, magna elit congue risus, vel tempus orci leo ut massa. Praesent ultrices molestie lacinia. Nulla sagittis luctus nisi. Cras euismod ante sit amet diam consectetur a egestas dui consectetur. Quisque adipiscing eros a augue porta commodo. Donec imperdiet orci eget quam ultricies et lobortis arcu vulputate. Quisque consectetur, metus non tempor ullamcorper, ante lectus interdum libero, vel dapibus arcu nunc id turpis. Duis mattis ligula sed odio hendrerit sed iaculis purus pretium.
+
+Aliquam nunc sem, pulvinar sed iaculis eget, varius vel urna. Mauris a risus ut massa gravida consequat ut eget magna. Curabitur sollicitudin ligula non lectus molestie dignissim. Vestibulum at nisl eget elit dignissim adipiscing nec a velit. Proin porta nisl adipiscing nisi fermentum hendrerit. Vivamus non lacus eros, vitae commodo arcu. Aenean auctor sollicitudin orci non rutrum. Mauris tortor lectus, ullamcorper eu ullamcorper ut, fringilla at risus. Phasellus nibh diam, vulputate eu tempor vitae, pellentesque id sem.
+
+Phasellus scelerisque sodales massa, quis egestas nisl consectetur non. Quisque nisi turpis, ultrices eget ultrices non, lacinia vitae nunc. Etiam ac placerat dui. Quisque ac dolor eros, a gravida nibh. Curabitur vel orci sit amet turpis rutrum mattis. Pellentesque at est id velit condimentum faucibus. Sed sit amet lorem vitae libero eleifend hendrerit. Morbi ultrices leo sit amet leo lacinia pretium. Morbi ipsum lectus, mollis et sagittis sit amet, varius quis nulla.',
+        'format' => 'filtered_html',
+      ),
+    ),
+  ),
+  'uid' => 1,
+  'status' => 1,
+  'promote' => 1,
+  'sticky' => 0,
+  'comment' => 0,
+);
+
