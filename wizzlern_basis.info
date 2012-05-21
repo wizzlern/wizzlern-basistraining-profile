@@ -2,6 +2,8 @@ name = Wizzlern Drupal basistraining
 description = Install with commonly used features pre-configured.
 version = VERSION
 core = 7.x
+old_short_name = default
+
 dependencies[] = block
 dependencies[] = comment
 dependencies[] = contextual
