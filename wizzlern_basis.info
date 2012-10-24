@@ -24,9 +24,3 @@ dependencies[] = file
 dependencies[] = rdf
 dependencies[] = locale
 files[] = wizzlern_basis.profile
-
-; Information added by drupal.org packaging script on 2011-10-26
-version = "7.9"
-project = "drupal"
-datestamp = "1319660730"
-
