@@ -5,6 +5,8 @@ api = 2
 projects[] = "l10n_update"
 projects[] = "ctools"
 projects[] = "views"
+projects[] = "features"
+projects[] = "strongarm"
 
 ; Themes
 projects[] = "academia"
