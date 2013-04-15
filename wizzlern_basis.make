@@ -10,7 +10,6 @@ projects[] = "strongarm"
 
 ; Themes
 projects[] = "academia"
-projects[] = "sky"
 
 libraries[profiler][download][type] = "get"
 libraries[profiler][directory_name] = "profiler"
