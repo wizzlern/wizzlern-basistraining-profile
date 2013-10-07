@@ -445,14 +445,14 @@ function wizzlern_basis_create_users() {
     array(
       'uid' => 1,
       'name' => 'admin',
-      'mail' => 'admin@wizzlern.nl',
+      'mail' => 'training@wizzlern.nl',
       'pass' => 'wizzlern',
       'roles' => 'administrator',
       'status' => 1,
     ),
     array(
-      'name' => 'specialist',
-      'mail' => 'specialist@wizzlern.nl',
+      'name' => 'deskundige',
+      'mail' => 'deskundige@wizzlern.nl',
       'pass' => 'wizzlern',
       'roles' => 'administrator',
       'status' => 1,
@@ -495,7 +495,7 @@ function wizzlern_basis_skip_configure_form() {
   $form_state['values'] = array();
 
   $form_state['values']['site_name'] = $_SERVER['SERVER_NAME'];
-  $form_state['values']['site_mail'] = 'basis@wizzlern.nl';
+  $form_state['values']['site_mail'] = 'training@wizzlern.nl';
   $form_state['values']['date_default_timezone'] = 'Europe/Amsterdam';
   $form_state['values']['site_default_country'] = 'NL';
 
@@ -504,7 +504,7 @@ function wizzlern_basis_skip_configure_form() {
   $form_state['values']['update_status_module'][2] = "0";
 
   $form_state['values']['account']['name'] = 'admin';
-  $form_state['values']['account']['mail'] = 'admin@wizzlern.nl';
+  $form_state['values']['account']['mail'] = 'training@wizzlern.nl';
   $form_state['values']['account']['pass'] = 'wizzlern';
 
   install_configure_form_submit(array(), $form_state);
