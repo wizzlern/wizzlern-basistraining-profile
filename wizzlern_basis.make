@@ -1,10 +1,6 @@
 core = 7
 api = 2
 
-projects[drupal][type] = "core"
-projects[drupal][download][type] = "get"
-projects[drupal][download][url] = "http://files.aegir.cc/core/drupal-7.28.1.tar.gz"
-
 ; Modules
 projects[] = "l10n_update"
 projects[] = "ctools"
