@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Evenementen voor specialisten feature.
+ */
+
+include_once 'event_specialist.features.inc';

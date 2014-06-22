@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Specialisten feature.
+ */
+
+include_once 'specialisten.features.inc';
